@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Height, width, borders and backgrounds</title>
+    <style>
+        #first{
+            background-color: aqua;
+            border: 2px solid red;
+            width: 500px;
+            height: 200px;
+            border-radius: 12px;
+
+        }
+
+        #second{
+            background-color: blueviolet;
+            width: 500px;
+            height: 200px;
+            border-top: 5px solid red;
+            border-bottom: 5px solid green;
+            border-left: 5px solid grey;
+            border-right: 5px solid yellow;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 10px;
+        }
+
+        #third{
+            width: 500px;
+            height: 200px;
+            border: 10px solid gray ;
+            background-image: url('https://www.codewithharry.com/_next/image/?url=%2Fimg%2Flogo-blue.png&w=48&q=75') ;
+            background-repeat: no-repeat;
+            /* background-repeat: repeat-y;
+            background-repeat: repeat-x; */
+            background-position: center left;
+
+        }
+    </style>
 </head>
 <body>
-    
+    <h3>This is First para</h3>
+    <p id="first">This is fisrt para dev</p>
+
+    <h3>This is First para</h3>
+    <p id="second">This is second para dev</p>
+
+    <h3>This is First para</h3>
+    <p id="third">This is third para dev</p>
 </body>
 </html>
