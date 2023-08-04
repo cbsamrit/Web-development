@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudo selector and css </title>
+    <style>
+      .container
+      {
+        border: 2px solid red;
+        margin: 20px auto;
+        padding: 30px;
+        width: 400px;
+        background-color: rgb(123, 123, 181);
+        box-sizing: border-box;
+      }
+
+      .btn
+      {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: rgb(197, 192, 209);
+        cursor: pointer;
+        padding: 3px;
+        border: none;
+        border-radius: 5px;
+      }
+
+      a{
+       text-decoration: none;
+       color: black;
+      }
+
+      .btn:hover
+      {
+        background-color: rgb(48, 17, 17);
+      }
+
+      a:visited
+      {
+        background-color: rgb(32, 201, 145);
+      }
+
+      a:active
+      {
+          color: blue;
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class="container" id="con1">
+        <h3>
+            This is my heading
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quisquam.</p>
+        <a href="https://www.google.com/" class="btn" target="_blank">google</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+</html>
