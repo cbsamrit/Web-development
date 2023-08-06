@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Css property display</title>
+    <style>
+        .top
+        {
+            border: 2px solid red;
+            margin: 10px auto;
+            width: 900px;
+        }
+
+        img
+        {
+            margin: auto;
+            display: block;
+            width: 34px;
+        }
+
+       #head
+        {
+            text-align: center;
+            margin: 0px auto;
+            width: 700px;
+        }
+
+        .container
+        {
+            border: 2px solid red;
+            margin: 10px auto;
+            width: 900px;
+           
+        }
+
+        .box
+        {
+            border: 2px solid green;
+            background-color: gray;
+             width: 33%;
+             margin: 4px 0px;
+             /* /* padding: 0px;  */
+            box-sizing: border-box;   
+            display:inline-block;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <header class="top">
+        <img src="./download.jpeg" alt="">
+        <h3 id="head">Welcome to my Page</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h3 class="heading">Fruits</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae placeat a nisi doloribus nam assumenda deserunt esse sequi, quasi neque!</p>
+        </div>
+                  
+        <div class="box">
+            <h3 class="heading">computer</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae placeat a nisi doloribus nam assumenda deserunt esse sequi, quasi neque!</p>
+        </div>
+
+        <div class="box">
+            <h3 class="heading">Stationary</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae placeat a nisi doloribus nam assumenda deserunt esse sequi, quasi neque!</p>
+        </div>
+
+    </div>
 </body>
 </html>
