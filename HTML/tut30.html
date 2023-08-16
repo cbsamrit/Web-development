@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .box
+        {
+        
+            background-color: red;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            display: none;
+        }
+
+        /* @media (min-width :400px) {
+
+            #box-1
+            {
+                display: block;
+            } 
+        } */
+
+        /* @media (min-width :400px) and (max-width : 600px) {
+
+            #box-1
+            {
+                display: block;
+                background-color: teal;
+            } 
+        } */
+
+        @media (max-width : 300px) {
+
+            #box-1
+            {
+                display: block;
+                background-color: teal;
+            } 
+        }
+
+        @media (min-width : 300px)  and (max-width :600px){
+
+            #box-2
+            {
+                display: block;
+                background-color: rgb(17, 128, 0);
+            } 
+        }
+
+        @media (min-width : 600px) and (max-width : 800px) {
+
+            #box-3
+            {
+                display: block;
+                background-color: rgb(13, 0, 128);
+            } 
+        }
+
+        @media (min-width :800px) {
+
+            #box-4
+            {
+                display: block;
+                background-color: rgb(111, 128, 0);
+            } 
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="box" id="box-1">Windows</div>
+    <div class="box" id="box-2">MacOS</div>
+    <div class="box" id="box-3">Kali/Linux</div>
+    <div class="box" id="box-4">Android</div>
+</body>
+</html>
