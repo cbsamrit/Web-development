@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1
+        {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+        /* div p
+        {
+            color: rgb(0,0,128);
+            background-color: orange;
+            font-weight: bold;
+        }
+
+        div > p
+        {
+           background-color: lightblue;
+           color: white; 
+        } */
+
+        div+p
+        {
+           color: wheat;
+           background-color: aqua;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div>
+            <ul>
+                <li>
+                    <p>chetan Bhaurao Samrit</p>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <p>this is a paragraph</p>
+        </div>
+        <p>this is another paragraph</p>
+    </div>
+    <p>this is the third paragraph</p>
 </body>
 </html>
